@@ -1,6 +1,6 @@
 var gameSettings = {
   charSpeed: 96,
-  fallSpeed: 0.75,
+  fallSpeed: 1,
 }
 
 var config = {
