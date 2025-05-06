@@ -14,7 +14,7 @@ class Scene2 extends Phaser.Scene {
     this.char = this.physics.add.image(config.width / 2, config.height - 48, "charfront");
     this.cursorKeys = this.input.keyboard.createCursorKeys();
     this.char.setCollideWorldBounds(true);
-    this.char.body.setSize(8, 8)
+    this.char.body.setSize(10, 10)
     this.char.body.setBoundsRectangle(new Phaser.Geom.Rectangle(35, 72, 90, 32));
 
     this.physics.add.overlap(this.char, this.arrow, this.hurtarrow, null, this);
